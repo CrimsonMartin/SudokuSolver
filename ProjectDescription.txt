@@ -1,0 +1,9 @@
+This project is a client-server sudoku solver.
+
+The client parses a sudoku puzzle from txt file called
+puzzle1.txt, writes it to a buffer, and sends the buffer
+to a server. The server then reads the puzzle, and using
+a multithreaded recursive backtracking algorithm, solves
+the puzzle and sends the solved puzzle back to the client.
+The client then prints the board that it sent and the baord
+it received.
